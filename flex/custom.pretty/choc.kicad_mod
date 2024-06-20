@@ -65,6 +65,26 @@
 		)
 	)
 	(attr through_hole)
+	(fp_line
+		(start -7 6)
+		(end -7 7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "4581afb1-dc4c-434b-8649-a57c21ef6165")
+	)
+	(fp_line
+		(start -7 7)
+		(end -6 7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "7840a501-676a-45a6-87ae-5bbf8583b03f")
+	)
 	(fp_rect
 		(start -9.5 0)
 		(end 9.5 8)
@@ -221,8 +241,8 @@
 	(pad "" np_thru_hole circle
 		(at -5.5 0)
 		(size 1.7018 1.7018)
-		(drill 1.7018)
-		(layers "*.Cu" "*.Mask")
+		(drill 2.2)
+		(layers "F&B.Cu" "*.Mask")
 		(uuid "878edd3e-2dbe-4190-9908-d4d041c59a89")
 	)
 	(pad "" np_thru_hole circle
@@ -242,22 +262,22 @@
 	(pad "" np_thru_hole circle
 		(at 5.5 0)
 		(size 1.7018 1.7018)
-		(drill 1.7018)
-		(layers "*.Cu" "*.Mask")
+		(drill 2.2)
+		(layers "F&B.Cu" "*.Mask")
 		(uuid "c3807a4f-0d10-42a3-b9d5-e0b9dba8caa0")
 	)
 	(pad "1" thru_hole circle
 		(at 0 5.9)
-		(size 2.032 2.032)
-		(drill 1.27)
+		(size 2.332 2.332)
+		(drill 1.57)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "2c400d7c-ee34-4fb8-be99-a5e3c795b187")
 	)
 	(pad "2" thru_hole circle
 		(at -5 3.8)
-		(size 2.032 2.032)
-		(drill 1.27)
+		(size 2.332 2.332)
+		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "125fc752-3558-4a76-9fc5-cf551f12dfeb")
