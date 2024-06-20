@@ -34,3 +34,5 @@ flex/~*
 
 # Project specific files
 *.lck
+jlcpcb
+jlcpcb/*
